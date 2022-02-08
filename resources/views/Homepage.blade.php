@@ -14,10 +14,53 @@
             background-color: black;
             text-align: center
         }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        /* nav */
+        nav{
+            background-color: rgb(19, 18, 18);
+            width: 100%;
+            height: 60px;
+        }  
+        li{
+            list-style-type: none;
+            font-size: 20px;
+            margin-right: 30px;
+        }
+        li:hover a{
+            padding: 10px;
+            background-color: red;
+            border-radius: 10px
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%
+        }
+        
+        
     </style>
-    <div>
-        <h1> HELLO WORLD </h1>
-    </div>
+
+    <header>
+        <div>
+            <h1>HELLO WORLD</h1>
+        </div>
+        {{-- nav --}}
+        <nav>
+            <ul>
+                <li>
+                    <a href="/data">Ideatore</a>
+                </li>
+                <li>
+                    <a href="/text">text</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
     
 </body>
 </html>

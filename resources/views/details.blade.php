@@ -8,11 +8,15 @@
 </head>
 <body>
     <style>
-        h1{
-            color:red;
+        body{
+            background-color: black
+        }
+        li {
+            color: white;
             padding: 50px;
-            background-color: black;
-            text-align: center
+            background-color: rgb(57, 57, 232);
+            font-size: 25px;
+            margin: 20px 0;
         }
     </style>
     <div>

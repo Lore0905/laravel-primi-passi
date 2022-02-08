@@ -30,3 +30,8 @@ Route::get('/data', function () {
     ];
     return view('details', $data);
 });
+Route::get('/text', function () {
+    
+    return view('lorem',);
+});
+
