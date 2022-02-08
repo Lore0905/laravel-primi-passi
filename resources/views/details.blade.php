@@ -16,7 +16,17 @@
         }
     </style>
     <div>
-        <h1> HELLO WORLD </h1>
+        <ul>
+            <li>
+                name: {{$name}}
+            </li>
+            <li>
+                lastname: {{$lastname}}
+            </li>
+            <li>
+                age: {{$age}}
+            </li>
+        </ul>
     </div>
     
 </body>
